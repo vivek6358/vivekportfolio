@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.ca{
+background-image: url(PicsArt_12-04-08.10.14.jpg);
+max-width:100%;
+height:190vh;
+background-size: cover;
+background-size: contain;
+}
+.a{
+  max-width: 32%;
+  position: relative;
+  left: 30px;
+  opacity: 0.7;
+}
+.b{
+  max-width: 35%;
+  position: relative;
+  right: 50px;
+  top:530px;
+}
+.a:hover{
+  opacity: 1;
+}
+.b:hover{
+  opacity: 0.9;
+}
+.kk{
+  background-image: url(PicsArt_12-04-09.08.11.jpg);
+  width: 100%;
+  height: 120vh;
+  background-size: cover;
+  background-size: contain;
+}
+.bg{
+  background-color: black;
+  height: 760px;
+}
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  padding:40px;
+}
+.ba{
+margin-right: 100px;
+}
+.bb{
+  margin-right: 80px;
+}
+.ba button{
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+  background: none;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+.bb button{
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+  background: none;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+.bc button{
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+  background: none;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+.y{
+  width: 300px;
+  position: relative;
+  bottom: 200px;
+}
+.x{
+  width:60%;
+  position: relative;
+  bottom: 285px;
+  right: 300px;
+}
+.z{
+  width: 40%;
+  position: relative;
+  bottom:600px;
+  left: 450px;
+}
+hr{
+  position: relative;
+}
+.into p{
+  color: white;
+  font-size: 20px;
+  position: relative;
+right: 510px;
+bottom: 70px;
+}
+.into h1{
+  color: white;
+  position: relative;
+  right: 320px;
+  bottom:70px;
+  font-size: 100px;
+
+}
+.into{
+  position: relative;
+  bottom: 1000px;
+  right: 150px;
+  text-align: right;
+}
+@media screen and (max-width: 768px) {
+    .content {
+        width: 100%;
+    }
+}
